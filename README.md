@@ -4,7 +4,7 @@
 
 Дедлайн: 13.11, 13.00
 
-Полное описание: https://docs.google.com/document/d/1f1Ni6u5mi4If5iyVMLQHjIAZJltDZc0QCGawitSSbxI/edit#heading=h.u13mxzscbyk0
+Тестовое задание на разработку простейшего демонстрационного сервиса (Go, PostgreSQL, NATS-streaming).
 
 ## Запуск
 
