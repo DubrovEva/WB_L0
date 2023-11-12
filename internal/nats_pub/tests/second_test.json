@@ -1,0 +1,62 @@
+{
+  "order_uid": "eva",
+  "track_number": "eva",
+  "entry": "eva",
+  "delivery": {
+    "name": "eva",
+    "phone": "eva",
+    "zip": "eva",
+    "city": "eva",
+    "address": "eva",
+    "region": "eva",
+    "email": "eva"
+  },
+  "payment": {
+    "transaction": "eva",
+    "request_id": "eva",
+    "currency": "eva",
+    "provider": "eva",
+    "amount": 0,
+    "payment_dt": 0,
+    "bank": "eva",
+    "delivery_cost": 0,
+    "goods_total": 0,
+    "custom_fee": 0
+  },
+  "items": [
+    {
+      "chrt_id": 0,
+      "track_number": "eva",
+      "price": 0,
+      "rid": "eva",
+      "name": "eva",
+      "sale": 0,
+      "size": "eva",
+      "total_price": 0,
+      "nm_id": 0,
+      "brand": "eva",
+      "status": 0
+    },
+    {
+      "chrt_id": 0,
+      "track_number": "eva",
+      "price": 0,
+      "rid": "eva",
+      "name": "eva",
+      "sale": 0,
+      "size": "eva",
+      "total_price": 0,
+      "nm_id": 0,
+      "brand": "eva",
+      "status": 0
+    }
+  ],
+  "locale": "eva",
+  "internal_signature": "eva",
+  "customer_id": "eva",
+  "delivery_service": "eva",
+  "shardkey": "eva",
+  "sm_id": 0,
+  "date_created": "2021-11-26T06:22:19Z",
+  "oof_shard": "eva"
+}

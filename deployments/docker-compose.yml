@@ -1,0 +1,23 @@
+services:
+  db:
+    image: postgres:13
+    restart: always
+    volumes:
+      - pg_data:/var/lib/postgresql/data/pgdata
+      - ./init_db.sql:/docker-entrypoint-initdb.d/init_db.sql:ro
+    ports:
+      - "5428:5432"
+    environment:
+      - POSTGRES_USER=default_user
+      - POSTGRES_DB=db
+      - POSTGRES_PASSWORD=default_password
+      - PGDATA=/var/lib/postgresql/data/pgdata
+
+  nats:
+    image: 'nats-streaming:alpine'
+    ports:
+      - "4222:4222"
+    environment:
+      - Name="default_user"
+volumes:
+  pg_data: {}

@@ -1,0 +1,15 @@
+env: "local"
+http_server:
+  url: "localhost:8080"
+nats:
+  url: "localhost:4222"
+  cluster: "test-cluster"
+  subscriber: "subscriber"
+  publisher: "publisher"
+  channel: "test-channel"
+db:
+  user: "default_user"
+  password: "default_password"
+  name: "db"
+  host: "localhost"
+  port: 5428
